@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "M595-595-MSP430F5438AIPZR")(type "KiCad")(uri "C:/Users/orile/OneDrive/שולחן העבודה/KiCad/MSP430F5438AIPZR.kicad_sym")(options "")(descr ""))
+  (lib (name "RN42-I/RM")(type "KiCad")(uri "C:/Users/orile/OneDrive/שולחן העבודה/KiCad/RN42-I_RM.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS73630DBVT")(type "KiCad")(uri "C:/Users/orile/OneDrive/שולחן העבודה/KiCad/TPS73630DBVT.kicad_sym")(options "")(descr ""))
+  (lib (name "MSP430FG6626IPZR")(type "KiCad")(uri "C:/Users/orile/OneDrive/שולחן העבודה/KiCad/KiCad/MSP430FG6626IPZR.kicad_sym")(options "")(descr ""))
+  (lib (name "MSP430F2001IPW")(type "KiCad")(uri "C:/Users/orile/OneDrive/שולחן העבודה/KiCad/KiCad/MSP430F2001IPW.kicad_sym")(options "")(descr ""))
+)

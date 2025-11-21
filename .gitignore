@@ -1,0 +1,42 @@
+# קבצים וספריות ש-KiCad יוצר באופן אוטומטי ואסור לעקוב אחריהם ב-Git
+
+# קבצי מטמון וספריות זמניות
+*-cache.lib
+*-rescue.lib
+*-temp.lib
+*-cmp
+*.dcm
+*.lck
+*.bak
+*.prl
+*.bak*
+
+# קבצי פרויקט זמניים וגיבויים
+*.pro-save
+*~
+
+# קבצי פלט שניתנים ליצירה מחדש
+*.net             # Netlists
+*.erc             # Electrical Rule Check logs
+*.drc             # Design Rule Check logs
+*.pos             # Position files
+*.log             # Log files
+*.rpt             # Report files
+*.csv             # Bill of Materials (BOM should be manually tracked when final)
+*.pdf             # Generated PDF exports (unless manually created for documentation)
+
+# קבצי פלט סופיים (Gerber) - מועלים רק בסוף התהליך
+# Uncomment the line below if you generate Gerbers in a folder called 'gerber'
+# /01-Hardware/gerber/
+
+# -------------------------------------------------------------------
+# קבצים נפוצים לפיתוח Firmware/Software (במיוחד MSP430)
+
+# Texas Instruments CCS / IAR Workbench
+*.o               # Object files
+*.out             # Executable files
+*.map             # Memory map files
+*.hex             # Hex files
+/Debug/           # Build folders
+/Release/         # Build folders
+.metadata/        # IDE metadata

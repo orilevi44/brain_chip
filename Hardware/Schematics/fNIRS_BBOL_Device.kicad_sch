@@ -1,0 +1,908 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f391a7a5-9ead-4f60-97df-b37f6ab0cbe8")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 85.09 44.45) (xy 100.33 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56fd9dde-60d0-4e2d-9a88-4c833090a46d")
+	)
+	(wire
+		(pts
+			(xy 85.09 36.83) (xy 100.33 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a93113ea-ab9c-4662-bcad-640429ee84a8")
+	)
+	(wire
+		(pts
+			(xy 85.09 49.53) (xy 100.33 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f173e374-c663-46ed-bdf3-0a856066575b")
+	)
+	(wire
+		(pts
+			(xy 85.09 40.64) (xy 100.33 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fac22eb4-5aea-4a0f-8e96-cb534f7d3dc9")
+	)
+	(sheet
+		(at 44.45 27.94)
+		(size 40.64 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "34c81517-0b06-44f3-b3b2-7c10de8826f0")
+		(property "Sheetname" "FNIRS Sensor Array"
+			(at 44.45 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fnirs_sensor_array.kicad_sch"
+			(at 44.45 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "D1" output
+			(at 85.09 36.83 0)
+			(uuid "62318e69-041b-4274-a72b-7df96713de04")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "D2" output
+			(at 85.09 40.64 0)
+			(uuid "10946c22-7d1b-4186-b86f-38bdb7f2c895")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "D3" output
+			(at 85.09 44.45 0)
+			(uuid "8003c214-04bc-4923-92a0-f7faf74bbf59")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "D4" output
+			(at 85.09 49.53 0)
+			(uuid "632f77d2-1704-4cc7-af41-3b916a954639")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED_740nm_Buff" input
+			(at 44.45 36.83 180)
+			(uuid "73e62931-ae2c-4e12-80cc-4e031f2e48ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED_850nm_Buff" input
+			(at 44.45 41.91 180)
+			(uuid "51b8fbbf-69b5-4543-8638-305776a08be1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "fNIRS_BBOL_Device"
+				(path "/f391a7a5-9ead-4f60-97df-b37f6ab0cbe8"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 100.33 29.21)
+		(size 71.12 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5d7090ac-07a9-4042-97ef-c5576e351776")
+		(property "Sheetname" "Data Acquisition MCU"
+			(at 100.33 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "data_acq_mcu.kicad_sch"
+			(at 100.33 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BT_UART_RX" input
+			(at 171.45 33.02 0)
+			(uuid "155272d6-3b2a-4785-bca1-a114709da911")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BT_UART_TX" output
+			(at 171.45 36.83 0)
+			(uuid "6bbc4258-6190-4c30-829d-cb8c94c3ed1f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "COM1" bidirectional
+			(at 171.45 39.37 0)
+			(uuid "4928607b-db49-405e-8df8-85f684f17521")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "COM2" bidirectional
+			(at 171.45 43.18 0)
+			(uuid "3a933a40-3dee-42cf-a5ff-6df534ea00fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "COM3_SYNC" input
+			(at 100.33 33.02 180)
+			(uuid "40fa138f-903c-4f59-a96e-c3bc1cf38a38")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D1" input
+			(at 100.33 36.83 180)
+			(uuid "13406539-bd91-49f6-8f2b-6312c1a1a620")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D2" input
+			(at 100.33 40.64 180)
+			(uuid "c5bbf383-4c32-4ca8-bed8-0b7135c1c4a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D3" input
+			(at 100.33 44.45 180)
+			(uuid "a5a9cc5f-07f8-457c-8029-1b462257b7cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D4" input
+			(at 100.33 49.53 180)
+			(uuid "777afae5-d200-401d-90d6-51d9a47edc4c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RST_5438a" bidirectional
+			(at 109.22 67.31 270)
+			(uuid "8e7b5d47-d332-4982-b286-338554c366b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SYNC" output
+			(at 113.03 67.31 270)
+			(uuid "70326023-5c7c-46f3-b1a5-3185d840a28f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TCK_5438a" input
+			(at 119.38 67.31 270)
+			(uuid "58f9a7a9-b9da-47c1-9263-3351c7161000")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TDI{slash}VPP_5438a" bidirectional
+			(at 121.92 67.31 270)
+			(uuid "cdf71e56-fa69-44bd-83cf-251684a5529a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TDO{slash}TDI_5438a" bidirectional
+			(at 127 67.31 270)
+			(uuid "e0c6dfcd-d5b3-46a2-b5d7-dc22221074ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TEST{slash}VPP_5438a" input
+			(at 130.81 67.31 270)
+			(uuid "1edd9de9-5b33-4d5c-9d34-05cda3ad8517")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TMS_5438a" input
+			(at 134.62 67.31 270)
+			(uuid "2153dc3b-3f3e-4cca-836c-873401cf093d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCC_TARGET_5438a" output
+			(at 138.43 67.31 270)
+			(uuid "c610e903-4eee-42e2-95ae-35493823b8cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCC_TOOL_5438a" output
+			(at 133.35 29.21 90)
+			(uuid "6b734414-9f1e-4130-8ed9-2b0d7ee03f08")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "fNIRS_BBOL_Device"
+				(path "/f391a7a5-9ead-4f60-97df-b37f6ab0cbe8"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 92.71 142.24)
+		(size 73.66 45.72)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "61f78fa9-d386-440f-a5ec-272edfb5d0b9")
+		(property "Sheetname" "FPC Connectors"
+			(at 92.71 141.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FPC Connectors.kicad_sch"
+			(at 92.71 188.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BT_UART_RX" passive
+			(at 92.71 165.1 180)
+			(uuid "f7b04af7-304b-4d21-9908-5f2f8a528ef1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "COM1" bidirectional
+			(at 92.71 161.29 180)
+			(uuid "6e9bc973-3f62-40e3-83c8-f754be7dda43")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "COM2" bidirectional
+			(at 148.59 142.24 90)
+			(uuid "a29dacc1-ca5c-49fc-9d08-ef3cf7eb6c94")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "COM3_SYNC" passive
+			(at 157.48 142.24 90)
+			(uuid "3b4873ff-0be4-48ff-aa47-993d22236140")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "D1" passive
+			(at 166.37 161.29 0)
+			(uuid "c17b47df-744d-40ed-a095-d75859f18d3a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "D2" passive
+			(at 166.37 168.91 0)
+			(uuid "3f3c2ad8-8972-4bc7-974f-d7a6297ccb8a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "D3" passive
+			(at 160.02 187.96 270)
+			(uuid "ee6e2183-0d7c-491d-ae54-f4a7ec1c758e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D4" passive
+			(at 157.48 187.96 270)
+			(uuid "7e8969d4-eea7-4134-ba64-7b3cba523d7d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED_740nm_Buff" output
+			(at 154.94 187.96 270)
+			(uuid "9af9f18a-7daf-4cca-a162-0ebf3e89deec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED_740_nm_Buff" input
+			(at 152.4 187.96 270)
+			(uuid "ffda2a10-785e-470d-ab1a-c6bf463f7e1c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED_850nm_Buff" output
+			(at 149.86 187.96 270)
+			(uuid "f3644518-830a-4020-8310-748e1bd7bf03")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "fNIRS_BBOL_Device"
+				(path "/f391a7a5-9ead-4f60-97df-b37f6ab0cbe8"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 208.28 46.99)
+		(size 44.45 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8da5acc4-1083-4155-aa16-9dfb455b6951")
+		(property "Sheetname" "Synchronization"
+			(at 208.28 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Synchronization.kicad_sch"
+			(at 208.28 66.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SYNC" output
+			(at 252.73 57.15 0)
+			(uuid "39a0dd8b-d254-4c8e-b4dc-0fceeefaf53f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "fNIRS_BBOL_Device"
+				(path "/f391a7a5-9ead-4f60-97df-b37f6ab0cbe8"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 88.9)
+		(size 82.55 45.72)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a2731b7b-eab8-4a98-84a6-90f80cca7007")
+		(property "Sheetname" "LED Control MCU"
+			(at 35.56 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led_control_mcu.kicad_sch"
+			(at 35.56 135.2046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "COM1" bidirectional
+			(at 35.56 95.25 180)
+			(uuid "97d64b95-5e8f-421c-99bf-b15d10912a2b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "COM2" bidirectional
+			(at 35.56 97.79 180)
+			(uuid "e7ff7316-af69-4655-8627-72a556f1174c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "COM3_SYNC" input
+			(at 35.56 102.87 180)
+			(uuid "28752b7f-9b79-4716-a022-291f30529632")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D1" input
+			(at 35.56 106.68 180)
+			(uuid "2c7dbd70-26db-413f-bc6b-9b910103b7c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D2" input
+			(at 35.56 109.22 180)
+			(uuid "991857d3-74a8-4a76-b953-a7d243b0231f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D3" input
+			(at 38.1 134.62 270)
+			(uuid "794dec8a-c7fb-4c74-b390-603a12fd1a64")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D4" input
+			(at 41.91 134.62 270)
+			(uuid "72868b3e-86ba-43ef-99f0-a9d2de26bc07")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED_740nm_Buff" output
+			(at 46.99 134.62 270)
+			(uuid "6ff4163e-2276-415f-903f-db77e25314b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED_850nm_Buff" output
+			(at 52.07 134.62 270)
+			(uuid "d050821e-0851-43c7-ae7d-a517fd10dd20")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RST_5438a" bidirectional
+			(at 55.88 134.62 270)
+			(uuid "6518d06e-2f36-4866-959f-eb1eb3c7eec7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RST_G6626" input
+			(at 59.69 134.62 270)
+			(uuid "7adff661-016b-4531-bb0f-0529a3702d84")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TCK_G6626" input
+			(at 64.77 134.62 270)
+			(uuid "8143cc6c-2bdf-47a0-a31b-493cb8f67d42")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TDI{slash}VPP_G6626" input
+			(at 118.11 105.41 0)
+			(uuid "2b24eb6d-4084-4d0a-af0f-b99751ccedea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TDO{slash}TDI_G6626" output
+			(at 118.11 100.33 0)
+			(uuid "dd1f1beb-7e8a-496b-8cfd-b2aa77ea87f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TEST{slash}VPP_G6626" input
+			(at 118.11 96.52 0)
+			(uuid "d8502b95-e1be-4a25-9ea5-adf9a73474bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TMS_G6626" input
+			(at 118.11 93.98 0)
+			(uuid "00479ce8-dc02-459a-862b-2cef65691b57")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCC_TARGET_G6626" output
+			(at 118.11 92.71 0)
+			(uuid "5cd4a03c-05e6-4fca-9faf-787b7ebb673b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCC_TOOL_G6626" output
+			(at 63.5 88.9 90)
+			(uuid "680f0034-ef4d-4f78-88b0-292639615869")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "fNIRS_BBOL_Device"
+				(path "/f391a7a5-9ead-4f60-97df-b37f6ab0cbe8"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 215.9 129.54)
+		(size 44.45 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ace967b7-2a6d-4e2e-9307-64b45464ca6d")
+		(property "Sheetname" "Power Management"
+			(at 215.9 128.8284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_management.kicad_sch"
+			(at 215.9 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fNIRS_BBOL_Device"
+				(path "/f391a7a5-9ead-4f60-97df-b37f6ab0cbe8"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 87.63)
+		(size 53.34 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c19230cc-75c9-4a28-9493-7ec0bc214f41")
+		(property "Sheetname" "Wireless Bluetooth"
+			(at 138.9884 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "wireless_bluetooth.kicad_sch"
+			(at 193.6246 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BT_UART_RX" input
+			(at 158.75 87.63 90)
+			(uuid "a113c671-b3cd-45c7-b8fd-6f51d8f88688")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BT_UART_TX" output
+			(at 147.32 120.65 270)
+			(uuid "108c6637-ee45-48fb-8b2c-898693351f4c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "fNIRS_BBOL_Device"
+				(path "/f391a7a5-9ead-4f60-97df-b37f6ab0cbe8"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
